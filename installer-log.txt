@@ -1,0 +1,288 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.8
+* STEP-1 START @ 04:01:14
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.6.30 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/5.6.30 mod_perl/2.0.8-dev Perl/v5.16.3
+DOC ROOT:	/Applications/XAMPP/xamppfiles/htdocs/Dynomike-Current
+DOC ROOT 755:	false
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/Dynomike-Current/installer.php
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170622_dynomike_02817eda423cdb592958170622214245_archive.zip
+SIZE:	40.58MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5551
+    [filename] => /Applications/XAMPP/xamppfiles/htdocs/Dynomike-Current/20170622_dynomike_02817eda423cdb592958170622214245_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-06-23 04:01:18
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.170623040118.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 04:01:18 - RUNTIME: 3.8306 sec.
+
+INSTALLER ERROR:
+The database "dynomike_db" has "45" tables.  The Duplicator only works with an EMPTY database.  Enable the action "Connect and Remove All Data" radio button to remove all tables and or create a new database. Some hosting providers do not allow table removal from scripts.  In this case you will need to login to your hosting providers control panel and remove the tables manually.  Please contact your hosting provider for further details.  Always backup all your data before proceeding!
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 04:02:18
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.21 -- Build Server: 10.0.31
+FILE SIZE:	database.sql (4.24MB) - installer-data.sql (4.24MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/XAMPP/xamppfiles/htdocs/Dynomike-Current/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	
+QUERIES RAN:	17137
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (1)
+wp_iwp_backup_status: (0)
+wp_links: (0)
+wp_options: (2358)
+wp_postmeta: (669)
+wp_posts: (260)
+wp_term_relationships: (19)
+wp_term_taxonomy: (5)
+wp_termmeta: (1)
+wp_terms: (5)
+wp_ulp_campaign_items: (0)
+wp_ulp_campaigns: (0)
+wp_ulp_layers: (218)
+wp_ulp_popups: (22)
+wp_ulp_subscribers: (21)
+wp_ulp_targets: (0)
+wp_ulp_webfonts: (645)
+wp_usermeta: (85)
+wp_users: (5)
+wp_wfBadLeechers: (0)
+wp_wfBlockedIPLog: (227)
+wp_wfBlocks: (6)
+wp_wfBlocksAdv: (0)
+wp_wfConfig: (180)
+wp_wfCrawlers: (12)
+wp_wfFileMods: (4518)
+wp_wfHits: (1992)
+wp_wfHoover: (0)
+wp_wfIssues: (1)
+wp_wfKnownFileList: (4519)
+wp_wfLeechers: (131)
+wp_wfLockedOut: (0)
+wp_wfLocs: (0)
+wp_wfLogins: (167)
+wp_wfNet404s: (0)
+wp_wfNotifications: (67)
+wp_wfPendingIssues: (0)
+wp_wfReverseCache: (1)
+wp_wfSNIPCache: (0)
+wp_wfScanners: (19)
+wp_wfStatus: (936)
+wp_wfThrottleLog: (0)
+wp_wfVulnScanners: (0)
+
+Removed '2099' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 8.9928 sec.
+STEP-2 COMPLETE @ 04:02:27 - RUNTIME: 9.2020 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 04:03:03
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_iwp_backup_status^ (0)
+wp_links^ (0)
+wp_options~ (258)
+wp_postmeta~ (669)
+wp_posts~ (260)
+wp_term_relationships~ (19)
+wp_term_taxonomy~ (5)
+wp_termmeta~ (1)
+wp_terms~ (5)
+wp_ulp_campaign_items^ (0)
+wp_ulp_campaigns^ (0)
+wp_ulp_layers~ (218)
+wp_ulp_popups~ (22)
+wp_ulp_subscribers~ (21)
+wp_ulp_targets^ (0)
+wp_ulp_webfonts~ (645)
+wp_usermeta~ (85)
+wp_users~ (5)
+wp_wfBadLeechers^ (0)
+wp_wfBlockedIPLog~ (227)
+wp_wfBlocks~ (6)
+wp_wfBlocksAdv^ (0)
+wp_wfConfig~ (180)
+wp_wfCrawlers~ (12)
+wp_wfFileMods~ (4518)
+wp_wfHits~ (1992)
+wp_wfHoover^ (0)
+wp_wfIssues~ (1)
+wp_wfKnownFileList~ (4519)
+wp_wfLeechers~ (131)
+wp_wfLockedOut^ (0)
+wp_wfLocs^ (0)
+wp_wfLogins~ (167)
+wp_wfNet404s^ (0)
+wp_wfNotifications~ (67)
+wp_wfPendingIssues^ (0)
+wp_wfReverseCache~ (1)
+wp_wfSNIPCache^ (0)
+wp_wfScanners~ (19)
+wp_wfStatus~ (936)
+wp_wfThrottleLog^ (0)
+wp_wfVulnScanners^ (0)
+--------------------------------------
+Search1:	'http://dynomikebooks.com' 
+Change1:	'http://localhost/Dynomike-Current' 
+Search2:	'/home/30118-21706.cloudwaysapps.com/xgupamxjyq/public_html' 
+Change2:	'/Applications/XAMPP/xamppfiles/htdocs/Dynomike-Current' 
+Search3:	'http:\/\/dynomikebooks.com' 
+Change3:	'http:\/\/localhost\/Dynomike-Current' 
+Search4:	'\/home\/30118-21706.cloudwaysapps.com\/xgupamxjyq\/public_html' 
+Change4:	'\/Applications\/XAMPP\/xamppfiles\/htdocs\/Dynomike-Current' 
+Search5:	'%2Fhome%2F30118-21706.cloudwaysapps.com%2Fxgupamxjyq%2Fpublic_html%2F' 
+Change5:	'%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2FDynomike-Current%2F' 
+Search6:	'http%3A%2F%2Fdynomikebooks.com' 
+Change6:	'http%3A%2F%2Flocalhost%2FDynomike-Current' 
+Search7:	'\home\30118-21706.cloudwaysapps.com\xgupamxjyq\public_html' 
+Change7:	'/Applications/XAMPP/xamppfiles/htdocs/Dynomike-Current' 
+SCANNED:	Tables:45 	|	 Rows:14989 	|	 Cells:104748 
+UPDATED:	Tables:6 	|	 Rows:1158 	|	 Cells:1374 
+ERRORS:		62 
+RUNTIME:	0.815600 sec
+--------------------------------------
+DATA-REPLACE ERRORS (Key):
+Use SQL: SELECT @row := @row + 1 as row, t.* FROM some_table t, (SELECT @row := 0) r
+Row [180] on Table [wp_wfConfig] requires a manual update.
+Row [5] on Table [wp_wfNotifications] requires a manual update.
+Row [6] on Table [wp_wfNotifications] requires a manual update.
+Row [7] on Table [wp_wfNotifications] requires a manual update.
+Row [8] on Table [wp_wfNotifications] requires a manual update.
+Row [9] on Table [wp_wfNotifications] requires a manual update.
+Row [10] on Table [wp_wfNotifications] requires a manual update.
+Row [11] on Table [wp_wfNotifications] requires a manual update.
+Row [12] on Table [wp_wfNotifications] requires a manual update.
+Row [13] on Table [wp_wfNotifications] requires a manual update.
+Row [14] on Table [wp_wfNotifications] requires a manual update.
+Row [15] on Table [wp_wfNotifications] requires a manual update.
+Row [16] on Table [wp_wfNotifications] requires a manual update.
+Row [17] on Table [wp_wfNotifications] requires a manual update.
+Row [18] on Table [wp_wfNotifications] requires a manual update.
+Row [19] on Table [wp_wfNotifications] requires a manual update.
+Row [20] on Table [wp_wfNotifications] requires a manual update.
+Row [21] on Table [wp_wfNotifications] requires a manual update.
+Row [22] on Table [wp_wfNotifications] requires a manual update.
+Row [23] on Table [wp_wfNotifications] requires a manual update.
+Row [24] on Table [wp_wfNotifications] requires a manual update.
+Row [25] on Table [wp_wfNotifications] requires a manual update.
+Row [26] on Table [wp_wfNotifications] requires a manual update.
+Row [27] on Table [wp_wfNotifications] requires a manual update.
+Row [28] on Table [wp_wfNotifications] requires a manual update.
+Row [29] on Table [wp_wfNotifications] requires a manual update.
+Row [30] on Table [wp_wfNotifications] requires a manual update.
+Row [31] on Table [wp_wfNotifications] requires a manual update.
+Row [33] on Table [wp_wfNotifications] requires a manual update.
+Row [34] on Table [wp_wfNotifications] requires a manual update.
+Row [35] on Table [wp_wfNotifications] requires a manual update.
+Row [36] on Table [wp_wfNotifications] requires a manual update.
+Row [37] on Table [wp_wfNotifications] requires a manual update.
+Row [38] on Table [wp_wfNotifications] requires a manual update.
+Row [39] on Table [wp_wfNotifications] requires a manual update.
+Row [40] on Table [wp_wfNotifications] requires a manual update.
+Row [41] on Table [wp_wfNotifications] requires a manual update.
+Row [42] on Table [wp_wfNotifications] requires a manual update.
+Row [43] on Table [wp_wfNotifications] requires a manual update.
+Row [44] on Table [wp_wfNotifications] requires a manual update.
+Row [45] on Table [wp_wfNotifications] requires a manual update.
+Row [46] on Table [wp_wfNotifications] requires a manual update.
+Row [47] on Table [wp_wfNotifications] requires a manual update.
+Row [48] on Table [wp_wfNotifications] requires a manual update.
+Row [49] on Table [wp_wfNotifications] requires a manual update.
+Row [50] on Table [wp_wfNotifications] requires a manual update.
+Row [52] on Table [wp_wfNotifications] requires a manual update.
+Row [53] on Table [wp_wfNotifications] requires a manual update.
+Row [54] on Table [wp_wfNotifications] requires a manual update.
+Row [55] on Table [wp_wfNotifications] requires a manual update.
+Row [56] on Table [wp_wfNotifications] requires a manual update.
+Row [57] on Table [wp_wfNotifications] requires a manual update.
+Row [58] on Table [wp_wfNotifications] requires a manual update.
+Row [59] on Table [wp_wfNotifications] requires a manual update.
+Row [60] on Table [wp_wfNotifications] requires a manual update.
+Row [61] on Table [wp_wfNotifications] requires a manual update.
+Row [62] on Table [wp_wfNotifications] requires a manual update.
+Row [63] on Table [wp_wfNotifications] requires a manual update.
+Row [64] on Table [wp_wfNotifications] requires a manual update.
+Row [65] on Table [wp_wfNotifications] requires a manual update.
+Row [66] on Table [wp_wfNotifications] requires a manual update.
+Row [67] on Table [wp_wfNotifications] requires a manual update.
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+NEW WP-ADMIN USER: New username 'rdeleon' was created successfully 
+ 
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 04:03:04 - RUNTIME: 0.9144 sec.
+
+

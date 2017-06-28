@@ -1,0 +1,50 @@
+
+@import 'https://fonts.googleapis.com/css?family=Scope+One|Raleway:300,400|Montserrat:400,700|Open+Sans|Muli|Droid+Serif';
+
+@font-face {
+    font-family: 'MarkPro-TestFont';
+    src: url('../../../assets/fonts/MarkPro-TestFont.otf') format('opentype');
+}
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+p {
+    font-size: 0.875rem;  
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+}
+
+.section_header_text {
+    font-family: "Montserrat", sans-serif;
+}
+

@@ -1,0 +1,550 @@
+
+
+:root {
+    font-size: 1rem;
+
+    @include break(lg) {
+        font-size: .933333333333333rem;
+    } 
+
+    @include break(md) {
+        font-size: .9rem;
+    }      
+
+    @include break(sm) {
+        font-size: .7rem;
+    }     
+
+    @include break(xs) {
+        font-size: .6rem;
+    }       
+
+} 
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+ 
+body {
+    background: #fff; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #323232;
+    overflow-x: hidden;
+}
+ 
+.no-scroll {
+    overflow-y: hidden;
+}
+
+
+.full_screen {
+    height: 100vh;
+    width: 100%;
+    position: relative; 
+    overflow-y: hidden;
+}
+
+.col_half {
+    width: 50%; 
+    float: left;
+
+    @include break(sm) {
+        width: 100%; 
+        flex:1 100%;
+    }  
+
+    .col_half_header {
+
+        h4 {
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+
+    }
+ 
+
+
+}
+
+.move-up {
+    z-index: 11 !important;
+}
+
+.move-down {
+    z-index: 9 !important;
+}
+
+#app {
+
+    .app-page-container {
+
+        section {
+            z-index: 11;
+            opacity: 1;
+            overflow: hidden;
+            position: relative;
+            //transition: opacity 5s;  
+
+            &.move-up {
+                z-index: 11;
+            }
+
+            &.move-down {
+                z-index: 9;
+            }
+
+        }        
+
+    }
+
+
+    &.page-menu-open {
+
+        .header .branding {
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        .app-page-container {
+
+            section {
+                z-index: 2;
+                opacity: 0;
+                transition: opacity 5s;                
+            }            
+
+        }
+
+    }
+
+}
+
+
+.wide-gutter {
+    margin: auto;
+    padding-left: 11rem;
+    padding-right: 11rem;
+
+    @include break(md) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }  
+
+}
+
+.narrow-gutter {
+    margin: auto;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.overlay {
+    &.wide-gutter {
+        z-index: 11;
+        position: relative;
+        height: 100vh;       
+    }
+
+    .content {
+         position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        z-index: 2;
+        color: #fff;
+        text-align: center;
+        width: 80%;
+
+        h1.title {
+            font-size: 4rem;
+            line-height: 1;
+            margin-bottom: 30px;
+            transition: font-size 1s cubic-bezier(.19,1,.22,1);
+
+              @include break(md) {
+              }
+
+              /*@include break(sm) {
+                font-weight: 700;
+              }*/              
+
+        }
+
+        h3.subtitle {
+            font-size: 1.215rem;
+            letter-spacing: 0.5px;
+            transition: font-size 1s cubic-bezier(.19,1,.22,1);
+
+              @include break(md) {
+                line-height: 1.5;
+              }
+
+
+        }
+
+        .vimeo_launcher {
+            margin-top: 60px;
+        }
+
+    }
+}
+
+
+
+.cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 1;
+        transition: opacity .3s;
+    }
+
+    video {
+        width: auto;
+        height: calc(100% + 1px);
+        z-index: 1;
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../assets/images/PC-Typing.jpg);  
+            background-size: cover;
+            z-index: 0;           
+        }
+
+    }    
+
+}
+
+#storiesGrid {
+
+    .section_header_container {
+        z-index: 10;
+        width: 100%;
+
+        .section_header_line {
+            float: left;
+            border-bottom: 1px solid black;
+            width: 85%;
+            height: 50px;        
+        }
+
+        .section_header_text {
+            line-height: 100px;
+            float: left;
+            text-align: left;        
+            padding-left: 30px;
+            width: 15%;
+        }
+
+    }
+
+}
+
+.divider.divider-center, .divider.divider-center.divider-short {
+    text-align: center;
+}
+
+.col_half {
+    .divider.divider-left {
+        text-align: left;
+
+        &:before {
+            left: -89% !important;
+            right: 0;
+            margin-left: 5px;
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 10px;
+            height: 0;
+            border-top: 1px solid #fff;      
+        }
+
+        &:after {
+            left: 41% !important;
+            right: 0;
+            margin-left: -5px;
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 10px;
+            height: 0;
+            border-top: 1px solid #fff;        
+        }
+
+        h3, h4 {
+            text-transform: uppercase;
+            padding-bottom: 20px;
+            color: white;
+            text-align: left;
+            margin-left: 95px;
+            font-size: 1.33rem;
+        } 
+    }
+}
+
+.divider.divider-center {
+    text-align: center;
+
+    &:before {
+        left: -55% !important;
+        right: 0;
+        margin-left: 5px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 12px;
+        height: 0;
+        border-top: 1px solid #037a99;        
+
+        @include break(md) {
+            left: -58% !important;
+        }
+
+        @include break(sm) {
+            left: -62% !important;
+        }    
+
+        @include break(xs) {
+            left: -67% !important;
+        }                
+
+    }
+
+    &:after {
+        left: 55% !important;
+        right: 0;
+        margin-left: -5px;      
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 12px;
+        height: 0;
+        border-top: 1px solid #037a99;    
+
+        @include break(md) {
+            left: 58% !important;
+        }
+
+        @include break(sm) {
+            left: 62% !important;
+        }     
+
+        @include break(xs) {
+            left: 67% !important;
+        }  
+
+    }
+
+}
+
+.divider {
+    position: relative;
+    overflow: hidden;
+    margin: 35px 0;
+    color: #E5E5E5;
+    width: 100%;
+
+    h3, h4 {
+        position: relative;
+        line-height: 1;
+        font-size: 2rem;
+        text-align: center;    
+        color: #037a99;    
+    } 
+
+}
+
+.ghost_button_white {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: left;
+}
+
+.ghost_button_dark {
+    background-color: transparent;
+    border: 2px solid #333;
+    padding: 10px 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+
+footer.layout-footer {
+    color: #323232;
+    padding: 40px 60px 60px;
+    z-index: 1;
+    position: relative;
+    background: #fff;
+
+
+    .crestron_logo {
+        margin-bottom: 60px;
+    }
+
+    nav {
+        float: right;
+        width: calc(100% - 200px);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: right;
+    }
+
+    li:first-of-type {
+        margin-left: 0;
+    }
+
+    li {
+        list-style: none;
+        text-align: right;
+        max-width: 200px;
+        display: inline-block;
+        margin-left: 6%;
+        margin-top: 5px;
+        transition: color .4s;      
+        
+        a {
+            display: inline-block;
+            cursor: pointer;
+            outline: none;
+            text-decoration: none;
+            color: #333;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            transition: color .55s cubic-bezier(.19,1,.22,1);
+            font-size: 0.7rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+    }
+
+    .contact {
+
+        h3 {
+
+            span {
+                font-size: 0.8rem;   
+                font-weight: 300;   
+                color: #9c9c9c;   
+                margin-right: 15px;       
+            }
+
+        }
+
+        .disclaimer {
+
+            p {
+                font-size: 0.7rem;
+                color: #afafaf; 
+            }
+
+        }
+
+        .socials {
+            float: right;
+            margin-top: -100px;
+
+            a {
+                text-decoration: none;
+                color: #333;
+                margin-left: 40px;
+            }
+
+        }
+
+    }
+
+} 
+
+@include keyframes(fadeIn) {
+  0% {
+      opacity: 1;
+      transform: translateX(100%);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(-100%);
+  }
+}
+
+@include keyframes(fadeOut) {
+  0% {
+      opacity: 1;
+      transform: translateX(-100%);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+
+
+@media (min-aspect-ratio: 16/9) {
+  .cover_video video {
+    width: calc(100% + 1px);
+    height: auto;
+  }
+}
+
+

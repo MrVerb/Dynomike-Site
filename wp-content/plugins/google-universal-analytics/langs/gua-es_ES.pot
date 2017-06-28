@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gua\n"
+"POT-Creation-Date: 2014-05-27 21:10+0500\n"
+"PO-Revision-Date: 2014-05-27 21:10+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classic/classic-analytics.php:2
+msgid "Google Classic Analytics"
+msgstr "Google Classic Analytics"
+
+#: classic/classic-analytics.php:2
+msgid "(ga.js)"
+msgstr "(ga.js)"
+
+#: classic/classic-analytics.php:4
+msgid ""
+"This is an older version of Google Analytics. Use this version only if you "
+"have not upgraded to Universal Analytics yet or want to use both trackers "
+"(which is totally fine!)."
+msgstr ""
+"Esta opción es la más adecuada si actualmente utiliza un código de "
+"seguimiento de la versión clásica de Google Analytics."
+
+#: classic/classic-analytics.php:10 classic/custom-analytics.php:10
+#: options.php:8
+msgid "Status"
+msgstr "Estado"
+
+#: classic/classic-analytics.php:16 options.php:14
+msgid "Tracking ID"
+msgstr "ID de propiedad"
+
+#: classic/classic-analytics.php:19 options.php:17
+msgid "Error!"
+msgstr "Error!"
+
+#: classic/classic-analytics.php:19
+msgid "match your code with this forma: UA-41335660-1"
+msgstr "Número de cuenta en el formato: UA-41335660-1"
+
+#: classic/classic-analytics.php:26 classic/custom-analytics.php:26
+#: options.php:28
+msgid "Place code in footer"
+msgstr "Mover código para 'footer'"
+
+#: classic/classic-analytics.php:38 classic/custom-analytics.php:38
+#: options.php:76
+msgid "Disable Tracking For"
+msgstr "Inhabilitar Acceder para"
+
+#: classic/classic-analytics.php:51 classic/custom-analytics.php:51
+#: options.php:88
+msgid "Save Changes"
+msgstr ""
+
+#: classic/classic-analytics.php:58 classic/custom-analytics.php:58
+#: options.php:95
+msgid "Have a question? Drop us a question at"
+msgstr "Si tiene alguna pregunta, póngase en contacto"
+
+#: classic/custom-analytics.php:2
+msgid "Custom Google Analytics"
+msgstr "Personalizadas en Google Analytics"
+
+#: classic/custom-analytics.php:4
+msgid "This is a place to customize your tracking code."
+msgstr ""
+"Puede personalizar para recopilar los datos de los que Google Analytics no "
+"realiza un seguimiento automáticamente."
+
+#: classic/custom-analytics.php:16
+msgid "Tracking Code"
+msgstr "ID de propiedad"
+
+#: googleanalytics.php:125 options.php:2
+msgid "Google Universal Analytics"
+msgstr "Google Universal Analytics"
+
+#: googleanalytics.php:129
+msgid "Universal Analytics"
+msgstr "Universal Analytics"
+
+#: googleanalytics.php:131
+msgid "Classic Analytics"
+msgstr "Classic Analytics"
+
+#: googleanalytics.php:135
+msgid "Custom Tracker"
+msgstr "El código personalizado"
+
+#: options.php:17
+msgid "match your code with this format: UA-41115660-1"
+msgstr "Número de cuenta en el formato: UA-41335660-1"
+
+#: options.php:21
+msgid "Advanced settings:"
+msgstr "Configuración avanzada"
+
+#: options.php:37
+msgid "Track events (Downloads, Mailto & Outbound URLs)"
+msgstr "Funciones de la publicidad de display (Listas de remarketing)"
+
+#: options.php:46
+msgid "Enable Display Advertising"
+msgstr "Funciones de la publicidad de display (Listas de remarketing)"
+
+#: options.php:55
+msgid "Anonymize IP"
+msgstr "Anonimización de IP"
+
+#: options.php:64
+msgid "Set Domain"
+msgstr "Establecer dominio"
+
+#~ msgid "Enable Woocommerce e-commerce tracking"
+#~ msgstr "WooCommerce seguimiento de comercio electrónico"

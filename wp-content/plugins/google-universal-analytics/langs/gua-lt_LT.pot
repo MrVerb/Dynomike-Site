@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gua\n"
+"POT-Creation-Date: 2014-05-27 21:09+0500\n"
+"PO-Revision-Date: 2014-05-27 21:10+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classic/classic-analytics.php:2
+msgid "Google Classic Analytics"
+msgstr "Google Classic Analytics"
+
+#: classic/classic-analytics.php:2
+msgid "(ga.js)"
+msgstr "(ga.js)"
+
+#: classic/classic-analytics.php:4
+msgid ""
+"This is an older version of Google Analytics. Use this version only if you "
+"have not upgraded to Universal Analytics yet or want to use both trackers "
+"(which is totally fine!)."
+msgstr ""
+"Tai senesnė Google Analytics versija. Naudokitės šia versija tik tuo atveju "
+"jei dar neatnaujinote savo Google Analytics paskyros į Universal Analytics "
+"arba norite naudotis abiem versijomis."
+
+#: classic/classic-analytics.php:10 classic/custom-analytics.php:10
+#: options.php:8
+msgid "Status"
+msgstr "Statusas"
+
+#: classic/classic-analytics.php:16 options.php:14
+msgid "Tracking ID"
+msgstr "Stebejimo kodas"
+
+#: classic/classic-analytics.php:19 options.php:17
+msgid "Error!"
+msgstr "Klaida!"
+
+#: classic/classic-analytics.php:19
+msgid "match your code with this forma: UA-41335660-1"
+msgstr "Stebėjimo kodo formatas: UA-41335660-1"
+
+#: classic/classic-analytics.php:26 classic/custom-analytics.php:26
+#: options.php:28
+msgid "Place code in footer"
+msgstr "Perkelti kodą i footer'į"
+
+#: classic/classic-analytics.php:38 classic/custom-analytics.php:38
+#: options.php:76
+msgid "Disable Tracking For"
+msgstr "Išjungti stebėjimą"
+
+#: classic/classic-analytics.php:51 classic/custom-analytics.php:51
+#: options.php:88
+msgid "Save Changes"
+msgstr ""
+
+#: classic/classic-analytics.php:58 classic/custom-analytics.php:58
+#: options.php:95
+msgid "Have a question? Drop us a question at"
+msgstr "Turite klausimų? Rašykite"
+
+#: classic/custom-analytics.php:2
+msgid "Custom Google Analytics"
+msgstr "Individualus Google Analytics"
+
+#: classic/custom-analytics.php:4
+msgid "This is a place to customize your tracking code."
+msgstr ""
+"Čia galite keisti savo stebėjimo kodą. Naudinga tiems kas nori pridėti "
+"papildomas funkcijas, kurių ši WordPress aplikacija dar neturi."
+
+#: classic/custom-analytics.php:16
+msgid "Tracking Code"
+msgstr "Stebėjimo kodas"
+
+#: googleanalytics.php:125 options.php:2
+msgid "Google Universal Analytics"
+msgstr "Google Universal Analytics"
+
+#: googleanalytics.php:129
+msgid "Universal Analytics"
+msgstr "Universal Analytics"
+
+#: googleanalytics.php:131
+msgid "Classic Analytics"
+msgstr "Classic Analytics"
+
+#: googleanalytics.php:135
+msgid "Custom Tracker"
+msgstr "Individualus kodas"
+
+#: options.php:17
+msgid "match your code with this format: UA-41115660-1"
+msgstr "Stebėjimo kodo formatas: UA-41335660-1"
+
+#: options.php:21
+msgid "Advanced settings:"
+msgstr "Papildomi nustatymai"
+
+#: options.php:37
+msgid "Track events (Downloads, Mailto & Outbound URLs)"
+msgstr ""
+"Sekti virtualius įvykius (parisiuntimus, mailto & išeinančias nuorodas)"
+
+#: options.php:46
+msgid "Enable Display Advertising"
+msgstr "Video reklamos funkcija (pakartotinė rinkodara)"
+
+#: options.php:55
+msgid "Anonymize IP"
+msgstr "Anonimizuoti IP"
+
+#: options.php:64
+msgid "Set Domain"
+msgstr "Nustatyti domeną"
+
+#~ msgid "Enable Woocommerce e-commerce tracking"
+#~ msgstr "Įjungti Woocommerce e-komercijos stebėjimą"

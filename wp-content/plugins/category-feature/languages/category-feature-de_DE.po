@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Category Widget\n"
+"POT-Creation-Date: 2016-02-17 11:43+0200\n"
+"PO-Revision-Date: 2016-02-17 11:44+0200\n"
+"Last-Translator: Stefan Crämer <translate@atelier-fuenf.de>\n"
+"Language-Team: Waldemar Stoffel <stoffel@atelier-furnf.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: category-feature.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: category-feature.php:104
+msgid "FAQ"
+msgstr "FAQ"
+
+#: category-feature.php:105
+msgid "Donate"
+msgstr "Spenden"
+
+#: category-feature.php:114 class-lib/A5_OptionPageClass.php:31
+#: class-lib/CF_AdminClass.php:50
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-lib/A5_ImageClass.php:48 class-lib/CF_WidgetClass.php:254
+msgid "Permalink to"
+msgstr "Link zu:"
+
+#: class-lib/A5_OptionPageClass.php:145
+msgid "Click to toggle"
+msgstr "Zum Umschalten klicken"
+
+#: class-lib/A5_OptionPageClass.php:382
+msgid "Not set"
+msgstr "Nicht gesetzt"
+
+#: class-lib/A5_WidgetClass.php:37
+msgid "Homepage"
+msgstr "Homepage"
+
+#: class-lib/A5_WidgetClass.php:38
+msgid "Frontpage (e.g. a static page as homepage)"
+msgstr "Frontpage (z.B. eine statische Seite als Homepage)"
+
+#: class-lib/A5_WidgetClass.php:39
+msgid "&#34;Page&#34; pages"
+msgstr "&#34;Seite&#34; Seiten"
+
+#: class-lib/A5_WidgetClass.php:40
+msgid "Category pages"
+msgstr "Kategorieseiten"
+
+#: class-lib/A5_WidgetClass.php:41
+msgid "Single post pages"
+msgstr "Artikelseiten"
+
+#: class-lib/A5_WidgetClass.php:42
+msgid "Archive pages"
+msgstr "Archivseiten"
+
+#: class-lib/A5_WidgetClass.php:43
+msgid "Post type archives"
+msgstr "Post Type Archive"
+
+#: class-lib/A5_WidgetClass.php:44
+msgid "Tag pages"
+msgstr "Schlagwortseiten"
+
+#: class-lib/A5_WidgetClass.php:45
+msgid "Attachments"
+msgstr "Attachments"
+
+#: class-lib/A5_WidgetClass.php:46
+msgid "Custom Taxonomy pages (only available, if having a plugin)"
+msgstr "Zustrom Taxonomy Seiten (gibt es nur mit entspr. Plugin)"
+
+#: class-lib/A5_WidgetClass.php:47
+msgid "Author pages"
+msgstr "Autorenseiten"
+
+#: class-lib/A5_WidgetClass.php:48
+msgid "Search Results"
+msgstr "Suchergebnisseiten"
+
+#: class-lib/A5_WidgetClass.php:49
+msgid "&#34;Not Found&#34;"
+msgstr "&#34;Nicht gefunden&#34;"
+
+#: class-lib/A5_WidgetClass.php:52
+msgid "Login Page (only available, if having a plugin)"
+msgstr "Login Seite (gibt es nur mit entspr. Plugin)"
+
+#: class-lib/A5_WidgetClass.php:54
+msgid "Check all"
+msgstr "Alles auswählen"
+
+#: class-lib/A5_WidgetClass.php:56
+msgid ""
+"Check, where you want to show the widget. By default, it is showing on the "
+"homepage and the category pages:"
+msgstr ""
+"Klicke an, wo das Widget gezeigt werden soll. Standardmäßig erscheint es auf "
+"der Homepage und in den Kategorien."
+
+#: class-lib/A5_WidgetClass.php:92
+msgid "Under image"
+msgstr "Unter dem Artikelbild"
+
+#: class-lib/A5_WidgetClass.php:92
+msgid "Left of image"
+msgstr "Links vom Artikelbild"
+
+#: class-lib/A5_WidgetClass.php:92
+msgid "Right of image"
+msgstr "Rechts vom Artikelbild"
+
+#: class-lib/A5_WidgetClass.php:92
+msgid "Don&#39;t show excerpt"
+msgstr "Auszug nicht anzeigen"
+
+#: class-lib/A5_WidgetClass.php:94
+msgid ""
+"Choose, whether or not to display the excerpt and whether it comes under the "
+"thumbnail or next to it."
+msgstr ""
+"Wähle, ob der Auszug angezeigt werden soll, und ob er unter das Thumbnail "
+"kommt oder daneben."
+
+#: class-lib/A5_WidgetClass.php:104
+msgid "Weight of the Post Title:"
+msgstr "Gewicht der Überschrift:"
+
+#: class-lib/A5_WidgetClass.php:108
+msgid "Left"
+msgstr "Links"
+
+#: class-lib/A5_WidgetClass.php:108
+msgid "Right"
+msgstr "Rechts"
+
+#: class-lib/A5_WidgetClass.php:108
+msgid "Center"
+msgstr "Zentriert"
+
+#: class-lib/A5_WidgetClass.php:108
+msgid "Justify"
+msgstr "Blocksatz"
+
+#: class-lib/A5_WidgetClass.php:110
+msgid "How do you want to align the Post Title?"
+msgstr "Wie willst du die Überschrift ausrichten?"
+
+#: class-lib/A5_WidgetClass.php:121
+msgid ""
+"Check to have an additional &#39;read more&#39; link at the end of the "
+"excerpt."
+msgstr ""
+"Anklicken, um einen zusätzlichen &#39;mehr lesen&#39;-Link am Ende des "
+"Auszugs anzuzeigen."
+
+#: class-lib/A5_WidgetClass.php:122
+#, php-format
+msgid ""
+"Write here some text for the &#39;read more&#39; link. By default, it is %s:"
+msgstr ""
+"Schreibe hier einen Text für den &#39;mehr lesen&#39;-Link. Standard ist %s:"
+
+#: class-lib/A5_WidgetClass.php:123
+msgid ""
+"If you want to style the &#39;read more&#39; link, you can enter a class "
+"here."
+msgstr ""
+"Um den &#39;mehr lesen&#39;-Link zu stylen, einfach hier eine Klasse angeben."
+
+#. Plugin URI of the plugin/theme
+#: class-lib/CF_AdminClass.php:63
+msgid ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/featured-category-"
+"widget"
+msgstr ""
+"http://blog.atelier-fuenf.de/wordpress-plugins/featured-category-widget"
+
+#: class-lib/CF_AdminClass.php:63
+msgid "Plugin Support"
+msgstr "Plugin Support"
+
+#: class-lib/CF_AdminClass.php:75
+msgid "Debug Info"
+msgstr "Info zur Fehlersuche"
+
+#: class-lib/CF_AdminClass.php:94
+msgid "Styling of the widgets"
+msgstr "Styling der Widgets"
+
+#: class-lib/CF_AdminClass.php:96
+msgid "Widget container:"
+msgstr "Widget Container:"
+
+#: class-lib/CF_AdminClass.php:96
+msgid ""
+"You can enter your own style for the widgets here. This will overwrite the "
+"styles of your theme."
+msgstr ""
+"Du kannst deinen eigenen Stil für die Widgets hier eingeben. Das wird die "
+"Stile deines Themas überschreiben."
+
+#: class-lib/CF_AdminClass.php:96
+msgid ""
+"If you leave this empty, you can still style every instance of the widget "
+"individually."
+msgstr ""
+"Wenn du das Feld leer lässt, kannst du immer noch jede Instanz des Widgets "
+"individuell stylen."
+
+#: class-lib/CF_AdminClass.php:98
+msgid "Custom Field:"
+msgstr "Benutzerdefiniertes Feld"
+
+#: class-lib/CF_AdminClass.php:98
+msgid ""
+"If you want to display a custom field of the posts in the widget, it will be "
+"wrapped in a &#39;&lt;p&gt;&#39; tag."
+msgstr ""
+"Wenn du ein benutzerdefiniertes Feld anzeigen willst, wird es in ein &#39;"
+"&lt;p&gt;&#39;-Tag eingebunden."
+
+#: class-lib/CF_AdminClass.php:98
+msgid "Here you can style the class of that paragraph."
+msgstr "Hier kannst du den Abschnitt stylen."
+
+#: class-lib/CF_AdminClass.php:100
+msgid "Compress Style Sheet:"
+msgstr "Stylesheet Komprimieren:"
+
+#: class-lib/CF_AdminClass.php:100
+msgid "Click here to compress the style sheet."
+msgstr "Anklicken, um das Stylesheet zu komprimieren."
+
+#: class-lib/CF_AdminClass.php:102
+msgid "Debug:"
+msgstr "Debug:"
+
+#: class-lib/CF_AdminClass.php:102
+msgid ""
+"If you can&#39;t reach the dynamical style sheet, you&#39;ll have to diplay "
+"the styles inline. By clicking here you can do so."
+msgstr ""
+"In manchen Fällen kann das virtuelle Style Sheet nicht erreicht werden. Ein "
+"Ablegen des CSS im Quellcode hilft dann. Hier klicken, um CSS inline zu "
+"schreiben."
+
+#: class-lib/CF_AdminClass.php:106
+msgid "entries"
+msgstr "Einträge"
+
+#: class-lib/CF_AdminClass.php:106
+msgid "entry"
+msgstr "Eintrag"
+
+#: class-lib/CF_AdminClass.php:108
+#, php-format
+msgid "Empty cache (%d %s):"
+msgstr "Cache leeren (%d %s):"
+
+#: class-lib/CF_AdminClass.php:108
+msgid "You can empty the plugin&#39;s cache here, if necessary."
+msgstr "Falls nötig, kannst du hier den Cache des Plugins leeren."
+
+#: class-lib/CF_AdminClass.php:116
+msgid "Just put some css code here."
+msgstr "Einfach CSS Code hier eingeben."
+
+#: class-lib/CF_AdminClass.php:171
+msgid "Cache emptied."
+msgstr "Cache geleert."
+
+#: class-lib/CF_WidgetClass.php:18
+msgid ""
+"Configure the output and looks of the widget. Then display thumbnails and "
+"excerpts of posts in your widget areas."
+msgstr ""
+"Konfiguriere den Inhalt und das Aussehen des Widgets. Zeige dann Thumbnails "
+"und Auszug deiner Artikel in deinen Widget Areas."
+
+#: class-lib/CF_WidgetClass.php:132
+msgid "Above thumbnail"
+msgstr "Über dem Thumbnail"
+
+#: class-lib/CF_WidgetClass.php:132 class-lib/CF_WidgetClass.php:134
+msgid "Under thumbnail"
+msgstr "Unter dem Thumbnail"
+
+#: class-lib/CF_WidgetClass.php:134
+msgid "Above post"
+msgstr "Über dem Artikel"
+
+#: class-lib/CF_WidgetClass.php:134
+msgid "Under post"
+msgstr "Unter dem Artikel"
+
+#: class-lib/CF_WidgetClass.php:134
+msgid "Don&#39;t show date"
+msgstr "Datum nicht anzeigen"
+
+#: class-lib/CF_WidgetClass.php:139
+msgid "Title:"
+msgstr "Titel:"
+
+#: class-lib/CF_WidgetClass.php:140
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: class-lib/CF_WidgetClass.php:140
+msgid "Choose a category"
+msgstr "Kategorie auswählen"
+
+#: class-lib/CF_WidgetClass.php:141
+msgid "Link the widget title to the chosen category."
+msgstr "Den Titel des Widgets mit der gewählten Kategorie verlinken."
+
+#: class-lib/CF_WidgetClass.php:142
+msgid "Show the post title."
+msgstr "Die Überschrift anzeigen."
+
+#: class-lib/CF_WidgetClass.php:143
+msgid "How many posts will be displayed in the widget:"
+msgstr "Wieviele Artikel sollen im Widget angezeigt werden:"
+
+#: class-lib/CF_WidgetClass.php:144
+msgid "Offset (how many posts are spared out in the beginning):"
+msgstr "Offset (wie viele Posts werden am Anfang übersprungen):"
+
+#: class-lib/CF_WidgetClass.php:145
+msgid "If you want to display a custom field, give it&#39;s name here:"
+msgstr ""
+"Wenn du ein benutzerdefiniertes Feld anzeigen willst, gib den Namen hier ein:"
+
+#: class-lib/CF_WidgetClass.php:146
+msgid "Check to display random post(s) instead of a standard loop:"
+msgstr ""
+"Anklicken, um zufällige(n) Artikel anstatt einer Standardschleife anzuzeigen."
+
+#: class-lib/CF_WidgetClass.php:147
+msgid "Check to display posts in aplhabetical order:"
+msgstr "Anklicken, um die Artikel in alphabetischer Reihenfolge anzuzeigen."
+
+#: class-lib/CF_WidgetClass.php:148
+msgid "Check to have the offset only on your Frontpage."
+msgstr "Anklicken, um den Offset nur auf der Homepage zu haben."
+
+#: class-lib/CF_WidgetClass.php:149
+msgid "Width of the thumbnail (in px):"
+msgstr "Breite des Thumbnail (in px):"
+
+#: class-lib/CF_WidgetClass.php:150
+#, php-format
+msgid ""
+"If wanting a border around the image, write the style here. %s would make it "
+"a black border, 1px wide."
+msgstr ""
+"Wenn du einen Rahmen um das Bild willst, style es hier. %s sorgt für einen "
+"schwarzen, 1px weiten Rahmen."
+
+#: class-lib/CF_WidgetClass.php:151
+msgid ""
+"To overwrite the excerpt of WP, give here the number of sentences from the "
+"post that you want to display:"
+msgstr ""
+"Um den Standardauszug zu überschreiben, gib hier die Zahl der Sätze an, die "
+"du vom Artikel anzeigen willst:"
+
+#: class-lib/CF_WidgetClass.php:152
+msgid "Check to display words instead of sentences."
+msgstr "Anklicken, um Wörter anstatt Sätze als Auszug zu nehmen."
+
+#: class-lib/CF_WidgetClass.php:153
+msgid "Check to have each sentence in a new line."
+msgstr "Anklicken, um jeden Satz in einer neuen Zeile zu haben."
+
+#: class-lib/CF_WidgetClass.php:154
+msgid ""
+"Check to suppress shortcodes in the widget (in case the content is showing)."
+msgstr ""
+"Anklicken, um Shortcode im Widget zu unterdrücken (falls der Artikel "
+"angezeigt wird)."
+
+#: class-lib/CF_WidgetClass.php:155
+msgid ""
+"Check to return the excerpt unfiltered (might avoid interferences with other "
+"plugins)."
+msgstr ""
+"Anklicken, um den Auszug ungefiltert zu bekommen (das könnte Interferenzen "
+"mit anderen Plugins vermeiden)."
+
+#: class-lib/CF_WidgetClass.php:156
+msgid "Check to keep the layout of the post (all tags and spaces)."
+msgstr ""
+"Anklicken, um das aktuelle Format des Artikels zu behalten (mit allen tags "
+"und Leerzeichen)."
+
+#: class-lib/CF_WidgetClass.php:157
+msgid "Choose, whether to display the title above or under the thumbnail."
+msgstr ""
+"Wähle, ob die Überschrift über oder unter dem Thumbnail angezeigt werden "
+"soll."
+
+#: class-lib/CF_WidgetClass.php:159
+msgid ""
+"Choose, whether or not to display the publishing date and whether it comes "
+"above or under the post."
+msgstr ""
+"Wähle, ob das Artikeldatum angezeigt werden soll, und ob es über oder unter "
+"dem Artikel zu sehen sein soll."
+
+#: class-lib/CF_WidgetClass.php:162
+#, php-format
+msgid "%1$sLimit the title to %2$s words.%3$s"
+msgstr "%1$sDie Länge der Überschrift auf %2$s Wörter reduzieren.%3$s"
+
+#: class-lib/CF_WidgetClass.php:163
+msgid ""
+"If you want a line between the posts, this is the height in px (if not "
+"wanting a line, leave emtpy):"
+msgstr ""
+"Wenn eine Trennlinie zwischen den Posts sein soll, ist dies die Höhe der "
+"Linie in px (einfach leer lassen, wenn keine Linie gewünscht wird):"
+
+#: class-lib/CF_WidgetClass.php:164
+msgid "The color of the line (e.g. #cccccc):"
+msgstr "Die Farbe der Trennlinie (z.B. #cccccc):"
+
+#: class-lib/CF_WidgetClass.php:166
+msgid "Check to keep the post of the main loop in the widget."
+msgstr ""
+"Anklicken, um einen Artikel aus der Hauptschleife auch im Widget anzuzeigen."
+
+#: class-lib/CF_WidgetClass.php:168
+#, php-format
+msgid ""
+"Here you can finally style the widget. Simply type something like%1$s"
+"%2$sborder-left: 1px dashed;%2$sborder-color: #000000;%3$s%2$sto get just a "
+"dashed black line on the left. If you leave that section empty, your theme "
+"will style the widget."
+msgstr ""
+"Hier schließlich wird das Widget gestylt. Einfach etwas wie%1$s%2$sborder-"
+"left: 1px dashed;%2$sborder-color: #000000;%3$s%2$seintragen, um eine "
+"schwarze gestrichelte Linie am linken Rand zu bekommen. Wenn dieses Feld "
+"leer bleibt, übernimmt das Theme das Styling des Widgets."
+
+#. Plugin Name of the plugin/theme
+msgid "Featured Category Widget"
+msgstr "Featured Category Widget"
+
+#. Description of the plugin/theme
+msgid ""
+"The Featured Category Widget does, what the name says; it creates a widget, "
+"which you can drag to your sidebar and it will show excerpts of the posts of "
+"the category you chose. Display one or more random posts or the first five "
+"of the category in order."
+msgstr ""
+"Das Featured Category Widget macht, was der Name sagt; es kreiert ein "
+"Widget, was du in die Sidebar ziehen kannst und Auszüge von den Posts einer "
+"bestimmten Kategorie anzeigen. Zeige einen oder mehrere zufällige Posts oder "
+"die ersten fünf Posts einer Kategorie."
+
+#. Author of the plugin/theme
+msgid "Stefan Crämer"
+msgstr "Stefan Crämer"
+
+#. Author URI of the plugin/theme
+msgid "http://www.stefan-craemer.com"
+msgstr "http://www.stefan-craemer.com"
+
+#~ msgid ""
+#~ "http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/category-"
+#~ "column-plugin"
+#~ msgstr ""
+#~ "http://blog.atelier-fuenf.de/wordpress-plugins/category-column-plugin"
