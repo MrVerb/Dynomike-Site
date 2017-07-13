@@ -4,19 +4,19 @@ $phone-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 $breakpoints: (
-  xs: 32em,
-  sm: 48em,
-  md: 72em,
-  lg: 96em,
-  xl: 102em,
-  xx: 120em
+  "xs: 32em",
+  "sm: 48em",
+  "md: 72em",
+  "lg: 96em",
+  "xl: 102em",
+  "xx: 120em"
 );
 
 @mixin phone {
   @media (min-width: #{$phone-width}) and (max-width: #{$tablet-width - 1px}) {
     @content;
   }
-  
+
 }
 
 
@@ -38,7 +38,7 @@ $breakpoints: (
   }
 }
 
-@mixin break($size) {  
+@mixin break($size) {
   @media (max-width: map-get($breakpoints, $size)) {
     @content;
   }
@@ -122,4 +122,3 @@ $breakpoints: (
        -o-animation-direction: $direction;
           animation-direction: $direction;
 }
-
